@@ -11,37 +11,59 @@
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-    <form data-abide>
-      <div class="row">
-          <div class="large-6 columns">
-            <div class="name-field">
-              <label>Your Full Name <small>required</small>
-                <input type="text" required pattern="[a-zA-Z]+">
-              </label>
-            </div>
-          </div>
+    
+    <div class="row">
+      <div class="columns large-12">
+        <h1>Please Complete and Submit this form</h1>
       </div>
+    </div>
 
-      <div class="row">
-          <div class="large-6 columns">
-            <div class="integer-field">
-              <label>Student ID <small>required</small>
-                <input type="integer" required pattern="-?\d+">
-              </label>
-            </div>
-          </div> 
-      </div>
-      
+    <div class="row">
+      <div class="columns large-12">
+        <form data-abide>
+        <div class="columns large-6">
+         <div class="name-field">
+            <label>Name <small>Name is required</small>
+              <input type="text" required placeholder="Full Name" pattern="[a-zA-Z]+">
+            </label>
+          </div>
+        </div>
+        <div class="columns large-6">
+         <div class="StudentNumber-field">
+            <label>Student ID <small>Student ID is required</small>
+              <input type="text" required placeholder="0000-0000" pattern="integer">
+            </label>
+          </div>
+        </div>
+        <div class="columns large-6">
+         <div class="Major-field">
+            <label>Major 
+              <input type="text" placeholder="Major">
+            </label>
+          </div>
+        </div>
+        <div class="columns large-6">
         <div class="email-field">
           <label>Email
-            <input type="email" required>
+            <input type="email" placeholder="youremail@here.com">
           </label>
-          <small class="error">An email address is required.</small>
         </div>
-      <button type="submit">Submit</button>
-    </form> 
-
-  
+        </div>
+        <div class="columns large-6">
+         <div class="Date-field">
+            <label>Graduation Date 
+              <input type="date" placeholder="Graduation Date">
+            </label>
+          </div>
+        </div>
+        
+        <div class="columns large-6">
+    <button type="submit" class="submit-form">Submit</button>
+        </div>
+        </div>
+      </form> 
+      </div>
+    </div>
 
     
    

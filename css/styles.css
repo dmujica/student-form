@@ -1,9 +1,28 @@
 /* Your Awesome Website */
 
 body {
-	background: #B3A889;
+	background: #58A897;
 }
 
-form {
-	padding-top: 50px;
+
+h1 {
+	padding: 50px 0 0 10px;
+	color: #fff;
+}
+
+.submit-form {
+	background: goldenrod;
+}
+
+.submit-form:hover {
+	background: #D19915;
+}
+
+input {
+	padding-top: 5px;
+}
+
+label,
+label small{
+	color: #fff;
 }
