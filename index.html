@@ -14,7 +14,7 @@
     
     <div class="row">
       <div class="columns large-12">
-        <h1>Please Complete and Submit this form</h1>
+        <h1>Projected Graduation Form</h1>
       </div>
     </div>
 
@@ -23,15 +23,17 @@
         <form data-abide>
         <div class="columns large-6">
          <div class="name-field">
-            <label>Name <small>Name is required</small>
+            <label>Name   
               <input type="text" required placeholder="Full Name" pattern="[a-zA-Z]+">
+              <small class="error">name is required</small>
             </label>
           </div>
         </div>
         <div class="columns large-6">
-         <div class="StudentNumber-field">
-            <label>Student ID <small>Student ID is required</small>
-              <input type="text" required placeholder="0000-0000" pattern="integer">
+         <div class="ID-field">
+            <label>Student ID    
+              <input type="text" required maxlength="8" placeholder="0000-0000" pattern="integer">
+              <small class="error">Student ID is required</small>
             </label>
           </div>
         </div>
@@ -56,10 +58,11 @@
             </label>
           </div>
         </div>
-        
-        <div class="columns large-6">
-    <button type="submit" class="submit-form">Submit</button>
+        <div class="columns large-12">
+        <button type="submit" class="submit-form">Submit</button>  
         </div>
+    
+        
         </div>
       </form> 
       </div>
